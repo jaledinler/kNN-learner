@@ -23,10 +23,6 @@ kNN <train‐set‐file> <test‐set‐file> k
 This program uses the training set and the given value of k to make classifications/predictions for every instance in 
 the test set.
 
-This program uses leave-one-out cross validation with just the training data to select the value of k to use for the test set by evaluating k1 k2 k3 and selecting
-the one that results in the minimal crossvalidated error within the training set. To measure error for regression tasks, 
-you should use mean absolute error.
-
 Output:
 
 The value of k used for the test set on the first line and then the predictions for the test set instances are printed. 
